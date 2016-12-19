@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.5
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ dependencies {
 }
 jar {
     manifest {
-        attributes  "Main-Class": "jp.ac.uryukyu.ie.tnal.Example"
+        attributes  "Main-Class": "jp.ac.uryukyu.ie.e165745.Main"
         attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
     }
 }

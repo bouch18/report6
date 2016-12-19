@@ -24,6 +24,7 @@ class LivingThing {
         return name;
     }
     int gethitPoint() { return hitPoint;}
+    int getAttack() {return attack;}
     void setisDead() {this.dead = true;}
     void attack(LivingThing opponent){
         if(!(dead)){
