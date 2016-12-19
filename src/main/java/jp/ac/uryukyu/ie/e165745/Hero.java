@@ -31,14 +31,10 @@ class Hero extends LivingThing {
                 String n = "痛恨の一撃!!";
                 int damage = ((int) (Math.random() * getAttack() * 2));
                 damage_base(damage, opponent, n);
-
             }
-
         }
     }
     Hero(String look, int take ,int manu){
         super(look, take, manu); // 必ず先頭で呼び出す
-
-
     }
 }
